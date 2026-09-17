@@ -15,3 +15,22 @@ def add(*numbers):
     print(type(numbers))
 
 print(add(10, 20))
+
+def add(a):
+return a + 10
+
+a = 20
+print(add(a))
+
+add2 = lambda x: x + 10
+print(add2(10))
+
+a = 10
+
+def add ():
+   global a
+   a = 20
+   print(a)
+
+add()
+print(a)
